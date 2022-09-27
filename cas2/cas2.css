@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:50px;
+}
+.main {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom:12px solid #d8cefe;
+    padding:20px;
+    background-color: #ddebf8;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.slika {
+    width:150px;
+}
