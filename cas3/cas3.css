@@ -22,3 +22,8 @@ body {
 .purple {
     color: rgb(79, 53, 199);
 }
+.paragraph-wrapper {
+    padding: 20px;
+    border: 20px solid black;
+    border-image: url(https://lh3.googleusercontent.com/UnZy2-vjf5UgcBaOIZimN2sBdMMBmZQcSS77ROx3lASEFrMX7PBwbVYTYLok6JKgk4LxFsg9pXbaQvDasVhkz3A8vHFSyQQ75Jg=s400) 33% round;
+}
