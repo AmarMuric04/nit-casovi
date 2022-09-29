@@ -1,0 +1,89 @@
+body {
+height: 200vh;
+margin: 0;
+font-family: arial;
+}
+.parent {
+    margin-top: 200px;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    border: 3px solid black;
+}
+.child {
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    bottom:10px;
+    left: 10px;
+    border: 3px solid green;
+}
+.child-two {
+    border:3px solid blue;
+    position:sticky;  
+    top: 210px;  
+    left: 490px;
+    height: 125px;
+    width: 200px;
+}
+.child-three {
+    border:3px solid red;
+    height: 125px;
+    width: 200px;
+    position: fixed;
+    top: 225px;
+    left: 220px;
+}
+.child-four {
+    border: 3px solid orange;
+    height: 125px;
+    width: 200px;
+    position: relative;
+    left: 325px;
+    top: 175px
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.home-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+}
+.html {
+    margin: 0;
+    top:12.5px;
+    color: white;
+    position: absolute;
+    left: 100px;
+}
+.css {
+    margin: 0;
+    top:12.5px;
+    color: white;
+    position: absolute;
+    left: 200px;
+}
+.java {
+    margin: 0;
+    top:12.5px;
+    color: white;
+    position: absolute;
+    left: 300px;
+}
+.python {
+    margin: 0;
+    top:12.5px;
+    color: white;
+    position: absolute;
+    left: 375px;
+}
